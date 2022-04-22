@@ -9,7 +9,6 @@ asd=$(ls /root/bak/172.31.13.99/172.31.13.99/$da | grep $a)
 echo $asd
 if gzip -t /root/bak/172.31.13.99/172.31.13.99/"$da"/"$asd" ; then
     echo 'file is ok'
-    python3 a.py
 else
     echo 'file is corrupt'
     python3 e.py
